@@ -1,0 +1,25 @@
+body {
+  background-color: #eee;
+}
+.container {
+  width: 860px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+.container .people {
+  width: 700px;
+  float: left;
+}
+.container .people .human {
+  display: inline-block;
+  font-size: 50px;
+}
+.container .meter {
+  float: right;
+}
+.container .meter .point {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  font-size: 50px;
+}

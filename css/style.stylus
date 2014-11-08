@@ -1,0 +1,33 @@
+
+
+body{
+	background-color:#eee;
+}
+
+.container{
+	width:860px
+	height:600px;
+	position: relative;
+	margin:0 auto;
+		.people{
+			width:700px;
+			float:left;
+				.human{
+					display:inline-block;
+					font-size:50px;
+				}
+		}
+
+		.meter{
+			float:right;
+				.point{
+					font-family: Arial, sans-serif;
+					position:absolute;
+					font-size:50px;
+				}
+		}
+
+}
+
+ 
+
